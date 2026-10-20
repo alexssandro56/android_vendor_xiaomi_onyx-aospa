@@ -2,6 +2,9 @@
 # Automatically generated file. DO NOT MODIFY
 #
 
+# Firmware images are only added to the OTA with ONYX_SHIP_FIRMWARE=true;
+# by default the device keeps the stock firmware it has.
+ifeq ($(ONYX_SHIP_FIRMWARE),true)
 AB_OTA_PARTITIONS += \
     abl \
     aop \
@@ -33,3 +36,4 @@ AB_OTA_PARTITIONS += \
     xbl \
     xbl_config \
     xbl_ramdump
+endif

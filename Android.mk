@@ -5,6 +5,7 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),onyx)
+ifeq ($(ONYX_SHIP_FIRMWARE),true)
 
 # modem.img and modemfirmware.img are Git LFS objects; refuse to ship the
 # pointer files if git-lfs did not fetch them.
@@ -42,5 +43,7 @@ $(call add-radio-file,radio/vm-bootsys.img)
 $(call add-radio-file,radio/xbl.img)
 $(call add-radio-file,radio/xbl_config.img)
 $(call add-radio-file,radio/xbl_ramdump.img)
+
+endif # ONYX_SHIP_FIRMWARE
 
 endif

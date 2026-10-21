@@ -3486,11 +3486,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/etc/dolby/dax-default-spatializer.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default-spatializer.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default.xml \
     vendor/xiaomi/onyx/proprietary/vendor/bin/hw/vendor.dolby.dms.service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.dms.service \
-    vendor/xiaomi/onyx/proprietary/vendor/bin/hw/vendor.dolby.media.c2-default-service-dax:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.media.c2-default-service-dax \
     vendor/xiaomi/onyx/proprietary/vendor/etc/dolby/dax-default-spatializer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default-spatializer.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/dms-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dms-service.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.dolby.media.c2-default-service-dax.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2-default-service-dax.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/libcodec2_store_dolby.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_store_dolby.so \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdapparamstorage.so \

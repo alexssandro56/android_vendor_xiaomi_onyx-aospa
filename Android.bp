@@ -33754,6 +33754,31 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "vendor.qti.snapdragonServices-V1-ndk",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.qti.snapdragonServices-V1-ndk.so",
+            ],
+            shared_libs: [
+                "libbinder_ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.qti.syshealthmon-V1-ndk",
     owner: "xiaomi",
     strip: {
@@ -41498,6 +41523,15 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+    name: "snapdragon_services.xml",
+    owner: "xiaomi",
+    src: "proprietary/vendor/etc/vintf/manifest/snapdragon_services.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
     name: "vendor.qti.hardware.wifidisplaysession-service.xml",
     owner: "xiaomi",
     src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.wifidisplaysession-service.xml",
@@ -43477,6 +43511,36 @@ cc_prebuilt_binary {
             shared_libs: [
                 "libcutils",
                 "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "snapdragon_services",
+    owner: "xiaomi",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/snapdragon_services",
+            ],
+            shared_libs: [
+                "liblog",
+                "libbinder_ndk",
+                "vendor.qti.snapdragonServices-V1-ndk",
+                "libbase",
+                "libutils",
+                "libcutils",
                 "libc++",
                 "libc",
                 "libm",

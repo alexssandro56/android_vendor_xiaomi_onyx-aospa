@@ -1518,6 +1518,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/qwesd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qwesd.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/init/snapdragon_services.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/snapdragon_services.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/tlpd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tlpd.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/trusteduilistener.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trusteduilistener.rc \
@@ -3022,6 +3023,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.qesdhalaidl-V2-ndk \
     vendor.qti.qesdsys-V3-ndk \
     vendor.qti.qesdsys-V4-ndk \
+    vendor.qti.snapdragonServices-V1-ndk \
     vendor.qti.syshealthmon-V1-ndk \
     vendor.xiaomi.hardware.aidl.intentaware-V1-impl \
     vendor.xiaomi.hardware.aidl.intentaware-V1-ndk_platform \
@@ -3337,6 +3339,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.imscmaidlservice.xml \
     vendor.qti.ims.uceaidlservice.xml \
     vendor.qti.qccvndhal_aidl-service.xml \
+    snapdragon_services.xml \
     vendor.xiaomi.camera.aon-impl.xml \
     vendor.xiaomi.hardware.aidl.intentaware-service.xml \
     vendor.xiaomi.hardware.aidlbgservice-service.xml \
@@ -3444,6 +3447,7 @@ PRODUCT_PACKAGES += \
     sensors.qti \
     shsusrd \
     slim_daemon \
+    snapdragon_services \
     sscrpcd \
     ssgqmigd \
     ssgqmigd64 \

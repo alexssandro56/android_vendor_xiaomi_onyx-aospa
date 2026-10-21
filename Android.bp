@@ -42665,11 +42665,39 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
+cc_prebuilt_library_shared {
+    name: "vendor.qti.hardware.display.composer3-V1-ndk_onyx",
+    stem: "vendor.qti.hardware.display.composer3-V1-ndk",
+    // The source-built V1 imports graphics.composer3-V4, the stock one V3.
+    overrides: ["vendor.qti.hardware.display.composer3-V1-ndk"],
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.qti.hardware.display.composer3-V1-ndk.so",
+            ],
+            shared_libs: [
+                "libbinder_ndk",
+                "android.hardware.graphics.composer3-V3-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.display.composer-service",
-    // Also needs vendor.qti composer3-V1, which imports graphics.composer3-V4;
-    // soong rejects that next to graphics.composer3-V3, so onyx-vendor.mk
-    // installs it.
+    // Also needs the stock vendor.qti composer3-V1, which onyx-vendor.mk
+    // installs as vendor.qti.hardware.display.composer3-V1-ndk_onyx.
     check_elf_files: false,
     owner: "xiaomi",
     target: {

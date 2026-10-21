@@ -3382,7 +3382,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.capabilityconfigstore-service \
     vendor.qti.hardware.display.color-service \
     vendor.qti.hardware.display.composer-service \
-    vendor.qti.hardware.display.composer3-V1-ndk.vendor \
+    vendor.qti.hardware.display.composer3-V1-ndk_onyx \
     android.hardware.audio.common-V3-ndk.vendor \
     android.hardware.audio.core.sounddose-V1-ndk.vendor \
     vendor.qti.hardware.minkipcbinder@1.0-service \

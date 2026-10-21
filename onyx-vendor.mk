@@ -3480,3 +3480,38 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libEGL_adreno_so \
     vendor_lib64_libGLESv2_adreno_so \
     vendor_lib64_libq3dtools_adreno_so
+
+# Dolby
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/onyx/proprietary/odm/etc/dolby/dax-default-spatializer.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default-spatializer.xml \
+    vendor/xiaomi/onyx/proprietary/odm/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default.xml \
+    vendor/xiaomi/onyx/proprietary/vendor/bin/hw/vendor.dolby.dms.service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.dms.service \
+    vendor/xiaomi/onyx/proprietary/vendor/bin/hw/vendor.dolby.media.c2-default-service-dax:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.media.c2-default-service-dax \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/dolby/dax-default-spatializer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default-spatializer.xml \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/init/dms-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dms-service.rc \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.dolby.media.c2-default-service-dax.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2-default-service-dax.rc \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/vintf/manifest/dms-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/dms-service.xml \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/vintf/manifest/vendor.dolby.media.c2-default-service-dax.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.dolby.media.c2-default-service-dax.xml \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libcodec2_store_dolby.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_store_dolby.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdapparamstorage.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libdlbdsservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdlbdsservice.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libdlbpreg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdlbpreg.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libdmshal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdmshal.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libdolbyclstc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdolbyclstc.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libdolbydecoderprocessor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdolbydecoderprocessor.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libdolbyeglcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdolbyeglcore.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libdolbyencoderprocessor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdolbyencoderprocessor.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libdolbyottcameracontrol.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdolbyottcameracontrol.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libdolbyproxyandroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdolbyproxyandroid.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libqcodec2_dolbydecoderfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcodec2_dolbydecoderfilter.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libqcodec2_dolbyencoderfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcodec2_dolbyencoderfilter.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libspatializerparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspatializerparamstorage.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libswspatializeraidl_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswspatializeraidl_ext.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/soundfx/libdlbvolaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdlbvolaidl.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/soundfx/libhwdapaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libhwdapaidl.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/soundfx/libswgamedapaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswgamedapaidl.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/soundfx/libswspatializeraidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswspatializeraidl.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/vendor.dolby.dms-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.dms-V1-ndk.so \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0.so

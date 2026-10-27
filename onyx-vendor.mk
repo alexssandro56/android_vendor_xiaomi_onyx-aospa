@@ -1131,114 +1131,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sns_tilt_to_wake.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/sns_transport_ppe.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sns_transport_ppe.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/sixth_wrapper_cfg.xml:$(TARGET_COPY_OUT_ODM)/etc/sixth_wrapper_cfg.xml \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-4k.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-4k.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-arvr.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-arvr.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-boost.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-boost.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-camera.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-camera.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-cclassvideo.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-cclassvideo.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-cgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-cgame.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-charge.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-charge.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-chg-only.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-chg-only.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-class0.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-danmu.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-danmu.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-4k.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-4k.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-arvr.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-arvr.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-camera.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-camera.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-cclassvideo.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-cclassvideo.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-cgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-cgame.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-chg-only.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-chg-only.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-class0.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-danmu.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-danmu.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-highfps.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-highfps.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-hp-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-hp-mgame.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-hp-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-hp-normal.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-huanji.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-huanji.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-mgame.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-navigation.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-navigation.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-nolimits.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-nolimits.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-normal.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-per-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-per-class0.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-per-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-per-normal.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-per-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-per-video.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-phone.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-phone.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-recharge.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-recharge.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-tgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-tgame.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-video.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-videochat.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-videochat.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-xingtie.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-xingtie.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-gl-yuanshen.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-yuanshen.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-highfps.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-highfps.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-hp-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-hp-mgame.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-hp-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-hp-normal.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-huanji.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-huanji.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-4k.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-4k.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-arvr.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-arvr.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-camera.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-camera.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-cclassvideo.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-cclassvideo.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-cgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-cgame.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-chg-only.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-chg-only.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-class0.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-danmu.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-danmu.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-4k.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-4k.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-arvr.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-arvr.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-camera.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-camera.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-cclassvideo.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-cclassvideo.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-cgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-cgame.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-chg-only.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-chg-only.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-class0.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-danmu.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-danmu.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-highfps.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-highfps.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-hp-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-hp-mgame.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-hp-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-hp-normal.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-huanji.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-huanji.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-mgame.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-navigation.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-navigation.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-nolimits.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-nolimits.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-normal.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-per-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-per-class0.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-per-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-per-normal.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-per-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-per-video.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-phone.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-phone.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-tgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-tgame.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-video.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-videochat.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-videochat.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-xingtie.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-xingtie.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-demo-yuanshen.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-demo-yuanshen.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-highfps.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-highfps.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-hp-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-hp-mgame.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-hp-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-hp-normal.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-huanji.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-huanji.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-mgame.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-navigation.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-navigation.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-nolimits.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-nolimits.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-normal.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-per-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-per-class0.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-per-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-per-normal.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-per-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-per-video.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-phone.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-phone.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-recharge.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-recharge.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-tgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-tgame.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-video.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-videochat.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-videochat.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-xingtie.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-xingtie.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-in-yuanshen.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-yuanshen.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-map-global.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-map-global.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-map-india.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-map-india.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-mgame.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-navigation.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-navigation.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-nolimits.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-nolimits.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-normal.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-per-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-per-class0.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-per-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-per-normal.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-per-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-per-video.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-phone.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-phone.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-recharge.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-recharge.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-region-map.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-region-map.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-tgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-tgame.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-video.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-videochat.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-videochat.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-xingtie.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-xingtie.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermal-yuanshen.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-yuanshen.conf \
     vendor/xiaomi/onyx/proprietary/odm/etc/touch/dynamicrate.json:$(TARGET_COPY_OUT_ODM)/etc/touch/dynamicrate.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/touch/gameturbotool-control.json:$(TARGET_COPY_OUT_ODM)/etc/touch/gameturbotool-control.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/touch/gameturbotool-fastinput.json:$(TARGET_COPY_OUT_ODM)/etc/touch/gameturbotool-fastinput.json \
@@ -1490,7 +1382,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/hexlpservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hexlpservice.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/hlosminkdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hlosminkdaemon.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/hw/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.batterysecret.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/hw/init.mi_thermald.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mi_thermald.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/ims-dataservice-daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims-dataservice-daemon.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/ims_rtp_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims_rtp_daemon.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/imsdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsdaemon.rc \
@@ -1662,8 +1553,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/sysconfig/cacert-oem-defined-uids.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/cacert-oem-defined-uids.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/telephony_packages.xml:$(TARGET_COPY_OUT_VENDOR)/etc/telephony_packages.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/thermal-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-map.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
     vendor/xiaomi/onyx/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/xiaomi_ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xiaomi_ecc_list.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/xiaomi_ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xiaomi_ecc_list_preference.xml \
@@ -3415,7 +3304,6 @@ PRODUCT_PACKAGES += \
     ks \
     loc_launcher \
     lowi-server \
-    mi_thermald \
     mlid \
     nicmd \
     nqnfcinfo \

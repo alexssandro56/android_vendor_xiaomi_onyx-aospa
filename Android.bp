@@ -43210,53 +43210,11 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "init.kernel.post_boot-tuna",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-tuna.sh",
-    filename: "init.kernel.post_boot-tuna.sh",
-    soc_specific: true,
-}
 
-sh_binary {
-    name: "init.kernel.post_boot-tuna_1_3_2_1",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-tuna_1_3_2_1.sh",
-    filename: "init.kernel.post_boot-tuna_1_3_2_1.sh",
-    soc_specific: true,
-}
 
-sh_binary {
-    name: "init.kernel.post_boot-tuna_2_2_2_1",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-tuna_2_2_2_1.sh",
-    filename: "init.kernel.post_boot-tuna_2_2_2_1.sh",
-    soc_specific: true,
-}
 
-sh_binary {
-    name: "init.kernel.post_boot-tuna_2_3_1_1",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-tuna_2_3_1_1.sh",
-    filename: "init.kernel.post_boot-tuna_2_3_1_1.sh",
-    soc_specific: true,
-}
 
-sh_binary {
-    name: "init.kernel.post_boot-tuna_2_3_2_0",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-tuna_2_3_2_0.sh",
-    filename: "init.kernel.post_boot-tuna_2_3_2_0.sh",
-    soc_specific: true,
-}
 
-sh_binary {
-    name: "init.kernel.post_boot-tuna_default_2_3_2_1",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-tuna_default_2_3_2_1.sh",
-    filename: "init.kernel.post_boot-tuna_default_2_3_2_1.sh",
-    soc_specific: true,
-}
 
 sh_binary {
     name: "init.qcom.sensors",

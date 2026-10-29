@@ -1231,6 +1231,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.tuned.onyx_ofilm_imx882_wide_i_in.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.onyx_ofilm_imx882_wide_i_in.bin \
     vendor/xiaomi/onyx/proprietary/product/etc/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml \
     vendor/xiaomi/onyx/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
+    vendor/xiaomi/onyx/proprietary/vendor/bin/init.kernel.post_boot-tuna.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.kernel.post_boot-tuna.sh \
+    vendor/xiaomi/onyx/proprietary/vendor/bin/init.kernel.post_boot-tuna_1_3_2_1.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.kernel.post_boot-tuna_1_3_2_1.sh \
+    vendor/xiaomi/onyx/proprietary/vendor/bin/init.kernel.post_boot-tuna_2_2_2_1.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.kernel.post_boot-tuna_2_2_2_1.sh \
+    vendor/xiaomi/onyx/proprietary/vendor/bin/init.kernel.post_boot-tuna_2_3_1_1.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.kernel.post_boot-tuna_2_3_1_1.sh \
+    vendor/xiaomi/onyx/proprietary/vendor/bin/init.kernel.post_boot-tuna_2_3_2_0.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.kernel.post_boot-tuna_2_3_2_0.sh \
+    vendor/xiaomi/onyx/proprietary/vendor/bin/init.kernel.post_boot-tuna_default_2_3_2_1.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.kernel.post_boot-tuna_default_2_3_2_1.sh \
     vendor/xiaomi/onyx/proprietary/vendor/bin/init.kernel.post_boot.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.kernel.post_boot.sh \
     vendor/xiaomi/onyx/proprietary/vendor/bin/init.qcom.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.sh \
     vendor/xiaomi/onyx/proprietary/vendor/bin/system_dlkm_modprobe.sh:$(TARGET_COPY_OUT_VENDOR)/bin/system_dlkm_modprobe.sh \
@@ -3290,12 +3296,6 @@ PRODUCT_PACKAGES += \
     ims-dataservice-daemon \
     ims_rtp_daemon \
     imsdaemon \
-    init.kernel.post_boot-tuna \
-    init.kernel.post_boot-tuna_1_3_2_1 \
-    init.kernel.post_boot-tuna_2_2_2_1 \
-    init.kernel.post_boot-tuna_2_3_1_1 \
-    init.kernel.post_boot-tuna_2_3_2_0 \
-    init.kernel.post_boot-tuna_default_2_3_2_1 \
     init.qcom.sensors \
     init.qti.media \
     init.qti.qcv \

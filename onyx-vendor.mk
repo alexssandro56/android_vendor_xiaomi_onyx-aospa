@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/onyx
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/libagm_compress_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_compress_plugin.so \
     vendor/xiaomi/onyx/proprietary/odm/etc/acdbdata/Fluence/Fluence_acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Fluence/Fluence_acdb_cal.acdb \
     vendor/xiaomi/onyx/proprietary/odm/etc/acdbdata/Fluence/sia91xx/Fluence_acdb_cal_sia.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Fluence/sia91xx/Fluence_acdb_cal_sia.acdb \
     vendor/xiaomi/onyx/proprietary/odm/etc/audio/hrtf5c.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/hrtf5c.bin \

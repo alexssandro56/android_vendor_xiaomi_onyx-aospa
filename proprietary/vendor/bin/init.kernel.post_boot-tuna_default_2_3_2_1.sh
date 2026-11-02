@@ -190,8 +190,10 @@ fi
 
 	echo "0:441600 2:633600 5:480000 7:614400" > /data/vendor/perfd/default_scaling_min_freq
 
-# Reset the RT boost, which is 1024 (max) by default.
-echo 0 > /proc/sys/kernel/sched_util_clamp_min_rt_default
+# Reset the RT boost, which is 1024 (max) by default, to 12.5% so RT
+# threads (SurfaceFlinger, HWC, audio, input) never start at the bottom
+# of the frequency table.
+echo 128 > /proc/sys/kernel/sched_util_clamp_min_rt_default
 
 # cpuset parameters
 echo 0-1 5-6 > /dev/cpuset/background/cpus
